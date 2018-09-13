@@ -20,5 +20,5 @@ if (i === connect3){
   count = count + 1;
 }
 }
-return Math.round(count / 3);
+return Math.floor(count / 3);
 };
